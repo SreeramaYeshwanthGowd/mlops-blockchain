@@ -1,0 +1,7 @@
+artifact_location: mlflow-artifacts:/862897479945379224
+creation_time: 1743095857423
+experiment_id: '862897479945379224'
+last_update_time: 1743096081886
+lifecycle_stage: deleted
+name: Bitcoin Transaction Anomalies Detection
+tags: {}

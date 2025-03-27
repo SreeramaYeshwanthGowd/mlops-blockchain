@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1743096501059
+current_stage: None
+description: ''
+last_updated_timestamp: 1743096501059
+name: BitcoinAnomalyDetection
+run_id: b0044f6ef4b34a2bad3545cc59ca082e
+run_link: ''
+source: mlflow-artifacts:/565765531613770378/b0044f6ef4b34a2bad3545cc59ca082e/artifacts/bitcoin_anomaly_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/565765531613770378/b0044f6ef4b34a2bad3545cc59ca082e/artifacts/bitcoin_anomaly_model
+user_id: null
+version: 1

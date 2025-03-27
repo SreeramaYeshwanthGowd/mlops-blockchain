@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/565765531613770378
+creation_time: 1743096469528
+experiment_id: '565765531613770378'
+last_update_time: 1743096469528
+lifecycle_stage: active
+name: bitcoin_anomaly_detection_experiment

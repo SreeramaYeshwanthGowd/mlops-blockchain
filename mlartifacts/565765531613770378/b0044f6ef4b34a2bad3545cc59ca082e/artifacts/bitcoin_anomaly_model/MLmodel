@@ -1,0 +1,21 @@
+artifact_path: bitcoin_anomaly_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 2.21.2
+model_size_bytes: 975342
+model_uuid: d2b5e3d540e046e6925ffe721ad2c40d
+prompts: null
+run_id: b0044f6ef4b34a2bad3545cc59ca082e
+utc_time_created: '2025-03-27 17:28:14.563615'

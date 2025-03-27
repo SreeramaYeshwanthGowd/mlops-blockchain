@@ -86,7 +86,7 @@ services:
       - mlflow
     environment:
       - MODEL_URI=models:/BitcoinAnomalyDetection/latest
-      - MLFLOW_TRACKING_URI=http://mlflow:5000
+      - MLFLOW_TRACKING_URI=http://mlflow:5000 
 
   # Dash dashboard
   dashboard:
