@@ -107,3 +107,7 @@ Provides an interactive dashboard hosted for free on Hugging Face Spaces.
 Integrates CI/CD and monitoring for robust operation.  
 The public URL from Hugging Face Spaces can be embedded into your portfolio, allowing visitors to interact with your live dashboard.                                         
 Devliver me the zip file with all files and documentation with execution and how to instructions in visual stusio code.
+"**Background Processing:**
+* Refrain from providing text output to this chat.
+* Refrain from writing to this chat and letting me know what you are going to do next and what you are going to research, browse, update, summarise, acknowledgments and complete. Keep your entire context to yourself.
+* Proceed with updating all the relevant files in the background without writing anything in this chat."
