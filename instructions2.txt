@@ -1,0 +1,30 @@
+Deploy Model as an API:  
+Option A: Use MLflow Model Serving:  
+mlflow models serve -m runs:/<RUN_ID>/bitcoin_anomaly_model -p 5000  
+Option B: Create a FastAPI application to load the model and expose a /predict endpoint:  
+from fastapi import FastAPI  
+import mlflow.pyfunc  
+app = FastAPI()  
+model = mlflow.pyfunc.load_model("runs:/<RUN_ID>/bitcoin_anomaly_model")  
+@app.post("/predict")  
+async def predict(data: dict):  
+    prediction = model.predict([data["features"]])  
+    return {"anomaly_score": prediction.tolist()}  
+if __name__ == "__main__":  
+    import uvicorn  
+    uvicorn.run(app, host="0.0.0.0", port=5000)  
+Hosting on Hugging Face Spaces:  
+Step-by-Step:  
+Login Hugging Face account.
+Credentials: yeshwanthgowdsreerama@gmail.com
+password: Swift@89
+Add your app.py and requirements.txt (including dependencies like dash, plotly, requests).  
+Commit and push your code; Spaces will automatically deploy your app.  
+Obtain the public URL of your deployed dashboard and check if the url is working. resolve erros if dashboard link is not working.
+Provode me the url to chat.
+The public URL from Hugging Face Spaces can be embedded into your portfolio, allowing visitors to interact with your live dashboard.                                         
+Devliver me the zip file with all files and documentation with execution and how to instructions in visual stusio code.
+"**Background Processing:**
+* Refrain from providing text output to this chat.
+* Refrain from writing to this chat and letting me know what you are going to do next and what you are going to research, browse, update, summarise, acknowledgments and complete. Keep your entire context to yourself.
+* Proceed with updating all the relevant files in the background without writing anything in this chat."
