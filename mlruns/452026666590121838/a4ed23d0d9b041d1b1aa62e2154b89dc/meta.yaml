@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/452026666590121838/a4ed23d0d9b041d1b1aa62e2154b89dc/artifacts
+end_time: 1743097166106
+entry_point_name: ''
+experiment_id: '452026666590121838'
+lifecycle_stage: active
+run_id: a4ed23d0d9b041d1b1aa62e2154b89dc
+run_name: bitcoin_anomaly_detection
+run_uuid: a4ed23d0d9b041d1b1aa62e2154b89dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743097152531
+status: 3
+tags: []
+user_id: yashu

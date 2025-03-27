@@ -144,7 +144,7 @@ def main():
     """
     # Set MLflow tracking URI
     mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
-    experiment_name = "bitcoin_anomaly_detection_experiment"
+    experiment_name = "bitcoin_anomaly_detection_experiment_v2"
     mlflow.create_experiment(experiment_name)
     mlflow.set_experiment(experiment_name)
     print(f"Experiment '{experiment_name}' created successfully!")
