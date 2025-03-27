@@ -1,0 +1,30 @@
+# Bitcoin Transaction Anomaly Detection Project Tasks
+
+- [x] Clone the repository
+- [x] Read instructions.txt
+- [ ] Create project structure
+- [ ] Set up data ingestion components
+  - [ ] Create Kafka producer for Bitcoin transaction data
+  - [ ] Set up Blockchain.com API integration
+- [ ] Implement data processing pipeline
+  - [ ] Set up Spark Structured Streaming
+  - [ ] Configure Delta Lake storage
+- [ ] Develop anomaly detection model
+  - [ ] Implement model training code
+  - [ ] Set up MLflow tracking
+- [ ] Create model deployment
+  - [ ] Implement FastAPI application
+  - [ ] Set up model serving
+- [ ] Build interactive dashboard
+  - [ ] Develop Plotly Dash dashboard
+  - [ ] Add interactive filtering elements
+- [ ] Set up containerization
+  - [ ] Create Docker files
+  - [ ] Set up Docker Compose
+- [ ] Implement CI/CD and monitoring
+  - [ ] Set up GitHub Actions
+  - [ ] Configure Prometheus and Grafana
+- [ ] Create documentation
+  - [ ] Write setup instructions
+  - [ ] Create execution guide
+- [ ] Package everything into a zip file

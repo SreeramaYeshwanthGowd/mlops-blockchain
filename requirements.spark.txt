@@ -1,0 +1,5 @@
+# Spark Requirements
+pyspark==3.3.2
+delta-spark==2.2.0
+kafka-python==2.0.2
+prometheus-client==0.16.0

@@ -1,0 +1,20 @@
+# Base image for Kafka Producer
+FROM python:3.9-slim
+
+# Set working directory
+WORKDIR /app
+
+# Copy requirements
+COPY requirements.producer.txt requirements.txt
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy application code
+COPY src/data_ingestion /app/
+
+# Set environment variables
+ENV PYTHONUNBUFFERED=1
+
+# Run the application
+CMD ["python", "kafka_producer.py"]
