@@ -1,10 +1,13 @@
-Log in with the provided credentials (yeshwanthgowdsreerama@gmail.com / Swift@89) on hugging face
-Create a new Space
-Do what ever necessary to deploy the dashboard on huggnig space
-choose your own names for spaces and for anything
-Obtain the public URL of your deployed dashboard and check if the url is working. resolve erros if dashboard link is not working.
-Provode me the url to chat.
-The public URL from Hugging Face Spaces can be embedded into your portfolio, allowing visitors to interact with your live dashboard.                                         
+Automate the entire deployment process of this project on hugging space programatically
+Authenticate using Hugging Face token.
+Create a new Space.
+Push model files and code.
+Configure and push the `app.py` and `requirements.txt` files.
+Deploy the Space and provide a URL for dashboard after successful deployment.
+Resolve any errors. 
+Expected Output:
+- A successfully deployed ML model on Hugging Face Spaces.
+- URL of the deployed dashboard to interact with the model.
 "**Background Processing:**
 * Refrain from providing text output to this chat.
 * Refrain from writing to this chat and letting me know what you are going to do next and what you are going to research, browse, update, summarise, acknowledgments and complete. Keep your entire context to yourself.
